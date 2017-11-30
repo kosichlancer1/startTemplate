@@ -1,19 +1,44 @@
 {
-  "name": "lash",
+  "name": "test",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kosichlancer1/Lash.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kosichlancer1/Lash/issues"
   },
-  "homepage": "https://github.com/kosichlancer1/Lash#readme"
+  "homepage": "https://github.com/kosichlancer1/Lash#readme",
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.2.0",
+    "fancybox": "^3.0.0",
+    "jquery": "^3.2.1"
+  },
+  "scripts": {
+    "test": "test",
+    "gulp": "gulp"
+  },
+  "author": "sergei",
+  "license": "ISC",
+  "devDependencies": {
+    "air-datepicker": "^2.2.3",
+    "enquire.js": "^2.1.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "i": "^0.3.6",
+    "jquery-bar-rating": "^1.2.2",
+    "jquery-form-styler": "^2.0.1",
+    "normalize": "^0.3.1",
+    "normalize.css": "^7.0.0",
+    "slick-carousel": "^1.8.1"
+  }
 }
