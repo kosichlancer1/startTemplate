@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "description": "test",
+  "main": "index.js",
+  "authors": [
+    "sergei"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kosichlancer1/startTemplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "3.*",
+    "slick-carousel": "^1.8.1"
+  }
+}
