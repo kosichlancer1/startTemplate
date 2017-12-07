@@ -1,0 +1,21 @@
+$dark: #000000;
+$white: #ffffff;
+$gray: #d0cdd1;
+$fcBlack: #333;
+
+$mid: 768px;
+$large: 1280px;
+
+@mixin respond-to($media) {
+  @if $media == mobile {
+    @media only screen and (max-width: $mid - 1) { @content; }
+  }
+  @else if $media == tablet {
+    @media only screen and (min-width: $mid) and (max-width: $large - 1) { @content; }
+  }
+  @else if $media == desktop {
+    @media only screen and (min-width: $large) { @content; }
+  }
+}
+
+

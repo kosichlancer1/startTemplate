@@ -4,13 +4,14 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
     "url": ""
   },
-  "author": "",
+  "author": "sergei",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kosichlancer1/Lash/issues"
@@ -18,15 +19,17 @@
   "homepage": "https://github.com/kosichlancer1/Lash#readme",
   "dependencies": {
     "@fancyapps/fancybox": "^3.2.0",
+    "browser-sync": "^2.18.13",
     "fancybox": "^3.0.0",
-    "jquery": "^3.2.1"
+    "gulp-imagemin": "^4.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "imagemin-pngquant": "^5.0.1",
+    "jquery": "^3.2.1",
+    "rimraf": "^2.6.2"
   },
-  "scripts": {
-    "test": "test",
-    "gulp": "gulp"
-  },
-  "author": "sergei",
-  "license": "ISC",
   "devDependencies": {
     "air-datepicker": "^2.2.3",
     "enquire.js": "^2.1.6",

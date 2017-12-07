@@ -1,0 +1,36 @@
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.banner-section {
+  .banner-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner-section-description {
+    max-width: 450px;
+  }
+}
+
+
+.indent-section {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+
+.popular-product {
+  padding-top: 40px;
+  .popular-product-item {
+    text-align: center;
+    color: $fcBlack;
+    img {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+  }
+}
